@@ -1,6 +1,8 @@
 function AtivarPikachu() {
    document.getElementById("pokemon-name").innerHTML="Pikachu";
    document.getElementById("pokemon-img").src="images/pikachu.png";
+   document.getElementById("pokemon-type").innerHTML="Elétrico";
+   document.getElementById("attacks-list").innerHTML="Choque do Trovão", "Ataque Rápido", "Investida Elétrica";
 }
 
 function AtivarCharmander() {
